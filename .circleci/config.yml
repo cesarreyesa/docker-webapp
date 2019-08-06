@@ -15,6 +15,10 @@ jobs:
           command: dotnet build
 
       - run:
+          name: Dotnet Publish
+          command: dotnet publish -c Release
+
+      - run:
           name: Install Docker client
           command: |
             set -x
