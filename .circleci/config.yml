@@ -30,7 +30,6 @@ jobs:
       - run:
           name: Dependencies docker
           command: |
-            apt-get install unzip -y
             ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
             
       - run:
