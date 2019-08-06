@@ -16,7 +16,7 @@ jobs:
           command: docker build -t mywebapp -f Dockerfile .
 
       - run:
-          name: Docker setup...
+          name: Docker setup......
           command: |
             $(aws ecr get-login --no-include-email --region us-east-2)
             docker build -t docker-webapp .
