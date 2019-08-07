@@ -48,4 +48,4 @@ jobs:
           name: Docker publish
           command: |
             TAG="1.0.${CIRCLE_BUILD_NUM}"
-            docker push cesarreyesa/docker-webapp::$TAG
+            docker push cesarreyesa/docker-webapp:$TAG
